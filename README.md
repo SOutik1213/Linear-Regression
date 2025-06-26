@@ -12,7 +12,7 @@ This repository contains a basic implementation of Linear Regression from scratc
 
 The script also includes a simple plot of the training data along with the fitted regression line (for single feature inputs only):
 
-![Regression Plot](./output.png)
+![Regression Plot](./linear_regression_plot.png)
 
 > `output.png` is saved automatically when you run the code.
 
