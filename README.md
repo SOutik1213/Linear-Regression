@@ -32,6 +32,7 @@ bash
 Copy
 Edit
 python Run.py
+```
 This will:
 
 Load training and testing data from CSV files
