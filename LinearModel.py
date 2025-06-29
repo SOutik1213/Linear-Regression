@@ -20,10 +20,6 @@ class LinearRegression():
         m,n=X.shape
         self.theta= np.linalg.inv(X.T @ X) @ X.T @ y
 
-        h_x= X @ self.theta
-        MSE=(np.sum(y - h_x)**2)/(2*m)
-
-        print(MSE)
 
     def predict(self,X):
         X=self.add_intercept(X)

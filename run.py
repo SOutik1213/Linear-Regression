@@ -7,9 +7,9 @@ test=pd.read_csv("./Linear-Regression/test.csv")
 m,n=train.shape
 a,b=test.shape
 X_train=np.array(train.iloc[:,:-1])
-y_train=np.array(train.iloc[:,1])
+y_train=np.array(train.iloc[:,-1])
 X_test=np.array(test.iloc[:,:-1])
-y_test=np.array(test.iloc[:,1])
+y_test=np.array(test.iloc[:,-1])
 
 lr=LinearRegression()
 lr.fit(X_train,y_train)
